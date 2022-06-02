@@ -1,0 +1,121 @@
+/* Se importa la tipografía desde google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Poppins&display=swap');
+/* Texto general */
+body{
+    background-image: url("carlitosfondo.jpg");
+    background-repeat: repeat;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;    
+    width:100vw;
+    height: 100vh;    
+}
+/*Panel contiene a las demás divs*/
+
+.panel{
+    font-family: 'Poppins', sans-serif;
+    /*Auto sirve para que se adapte al tamaño*/
+    height: auto;
+    width: auto;
+    margin: 150px;
+    padding: 5px;
+    /*display: flex; lo sacamos porque estiraba el cuadrado*/
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    background-color: #47a2b7;
+}
+.question-container{
+    font-family: 'Nunito', sans-serif;
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 10vh;
+    /* background-color: #c7dddf; */
+    font-size: x-large;
+    text-align: center;
+      
+}
+.result{
+    font-family: 'Nunito', sans-serif;
+    margin: 10px;
+    padding: 5px;
+    width:80vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+      
+}
+.option-container{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-around; 
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 20vh;
+   /* background-color: #9eb1b3;*/
+        
+}
+.option{    
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    width: 15vw;
+    height: 10vh;
+    font-size: larger;
+    background-color: lightskyblue;
+    border: none;e
+}
+/*Cuando una posa el mouse encima y se pone blanco*/
+.option:hover{
+    font-family: 'Poppins', sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+.navigation{
+    font-family: 'Nunito', sans-serif;
+    width: 80vw;
+    height: 10vh;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    /*background-color:#c7dddf;*/
+}
+  
+.evaluate,.next{
+    font-family: 'Nunito', sans-serif;
+    width:30vw;
+    height: 8vh;
+    padding: 5px;
+    font-size: larger;
+}
+.evaluate{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    background-color:  #3e1094; /* Purple */;
+    border: none;e
+}
+.next{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    background-color:  #3e1094; /* Purple */;
+    border: none
+}
+.welcome{
+    font-family: 'Nunito', sans-serif;
+    margin: 10px;
+    padding: 200px;
+    text-align: center;
+    font-size: 50px;
+}
+.btn {
+  font-family: 'Nunito', sans-serif;
+  background-color: #3e1094; /* Purple */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+}
