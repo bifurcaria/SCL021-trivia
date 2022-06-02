@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;    
+    width:100vw;
+    height: 100vh;    
+}
+.panel{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question-container{
+    font-family: 'Nunito', sans-serif;
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 10vh;
+    background-color: #c7dddf;
+    font-size: x-large;
+    text-align: center;
+      
+}
+.result{
+    font-family: 'Nunito', sans-serif;
+    margin: 10px;
+    padding: 5px;
+    width:80vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+      
+}
+.option-container{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-around; 
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 20vh;
+    background-color: #9eb1b3;   
+        
+}
+.option{    
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    width: 15vw;
+    height: 10vh;
+    font-size: larger;
+    background-color: lightskyblue;
+    border-radius: 25%;
+}
+.option:hover{
+    font-family: 'Poppins', sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+.navigation{
+    font-family: 'Nunito', sans-serif;
+    width: 80vw;
+    height: 10vh;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#c7dddf;
+}
+  
+.evaluate,.next{
+    font-family: 'Nunito', sans-serif;
+    width:30vw;
+    height: 8vh;
+    padding: 5px;
+    font-size: larger;
+}
+.evaluate{
+    font-family: 'Nunito', sans-serif;
+    background-color: #50DBB4;
+}
+.next{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    background-color: #BF3325;
+}
+.welcome{
+    font-family: 'Nunito', sans-serif;
+    margin: 10px;
+    padding: 200px;
+    text-align: center;
+    font-size: 50px;
+}
+.btn {
+  font-family: 'Nunito', sans-serif;
+  background-color: #47a2b7; /* Light Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+}
